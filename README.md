@@ -34,7 +34,7 @@ The application demonstrates:
 
 ---
 
-# What is Factorial?
+### What is Factorial?
 
 The **factorial** of a number ( n ) is the product of all positive integers from **1 to n**.
 
@@ -56,7 +56,7 @@ with the base case:
 
 ---
 
-# Examples
+### Examples
 
 ### Example 1: 3!
 
@@ -74,7 +74,7 @@ with the base case:
 
 ---
 
-# Project Structure
+### Project Structure
 
 ```
 Factorial-Calculator-App-using-Streamlit
@@ -90,7 +90,7 @@ Factorial-Calculator-App-using-Streamlit
 
 ---
 
-# Step 1 — Create Project Folder
+### Step 1 — Create Project Folder
 
 Create a folder for the project:
 
@@ -106,7 +106,7 @@ code .
 
 ---
 
-# Step 2 — Open Terminal
+### Step 2 — Open Terminal
 
 In VSCode press:
 
@@ -118,7 +118,7 @@ Then open **Command Prompt (cmd)** inside the terminal.
 
 ---
 
-# Step 3 — Check Python Version
+### Step 3 — Check Python Version
 
 Verify Python installation.
 
@@ -134,7 +134,7 @@ python -V
 
 ---
 
-# Step 4 — Create Virtual Environment
+### Step 4 — Create Virtual Environment
 
 Create a **conda environment**:
 
@@ -150,7 +150,7 @@ conda activate fact_env
 
 ---
 
-# Step 5 — Install Dependencies
+### Step 5 — Install Dependencies
 
 Install required libraries:
 
@@ -166,7 +166,7 @@ streamlit
 
 ---
 
-# Step 6 — Factorial Function
+### Step 6 — Factorial Function
 
 Create file:
 
@@ -189,7 +189,7 @@ def fact(n):
 
 ---
 
-# Step 7 — Streamlit User Interface
+### Step 7 — Streamlit User Interface
 
 Create file:
 
@@ -234,7 +234,7 @@ if __name__ == "__main__":
 
 ---
 
-# Fix Streamlit Import Error in VSCode
+### Fix Streamlit Import Error in VSCode
 
 If `streamlit` shows an error underline:
 
@@ -258,7 +258,7 @@ fact_env
 
 ---
 
-# Run Application Locally
+### Run Application Locally
 
 ```bash
 streamlit run app.py
@@ -266,7 +266,7 @@ streamlit run app.py
 
 ---
 
-# Deploy on Streamlit Cloud
+### Deploy on Streamlit Cloud
 
 Go to:
 
@@ -292,7 +292,7 @@ Click **Deploy**.
 
 ---
 
-# Application Output
+### Application Output
 
 ![factorial calculator app](imgs/factapp.png)
 
@@ -321,7 +321,7 @@ Possible edits include:
 
 ---
 
-# Vocabulary File
+### Vocabulary File
 
 Create file:
 
@@ -346,7 +346,7 @@ understand
 
 ---
 
-# Create Environment
+### Create Environment
 
 ```bash
 conda create --name levenshteindistance_env python=3.11.7
@@ -360,7 +360,7 @@ conda activate levenshteindistance_env
 
 ---
 
-# Levenshtein Distance Implementation
+### Levenshtein Distance Implementation
 
 Create file:
 
@@ -457,7 +457,7 @@ This project uses:
 
 ---
 
-# Install Required Library
+### Install Required Library
 
 ```
 pip install opencv-python
@@ -465,7 +465,7 @@ pip install opencv-python
 
 ---
 
-# Object Detection Code
+### Object Detection Code
 
 ```python
 import cv2
@@ -549,7 +549,7 @@ if __name__ == "__main__":
 
 ---
 
-# Output Example
+### Output Example
 
 ![object detection for image](imgs/objectdetection.png)
 
@@ -567,7 +567,7 @@ This project builds a **simple chatbot interface** using:
 
 ---
 
-# Install HugChat
+### Install HugChat
 
 ```
 pip install hugchat
@@ -575,7 +575,7 @@ pip install hugchat
 
 ---
 
-# Chatbot Application
+### Chatbot Application
 
 ```python
 import streamlit as st
@@ -652,7 +652,7 @@ if st.session_state.messages[-1]["role"] != "assistant":
 
 ---
 
-# Technologies Used
+### Technologies Used
 
 * Python
 * Streamlit
